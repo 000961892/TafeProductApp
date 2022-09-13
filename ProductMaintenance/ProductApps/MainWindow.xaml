@@ -26,6 +26,8 @@
             </Label.RenderTransform>
         </Label>
         <TextBlock x:Name="totalChargeTextBox" HorizontalAlignment="Left" Margin="174,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25" Width="121"/>
+        <Label Content="Total Charge after adding &#xA;the wrap charge ($5):" HorizontalAlignment="Left" Margin="24,256,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="totalWrapingCharge" HorizontalAlignment="Left" Margin="177,273,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="25" Width="101"/>
 
 
     </Grid>
